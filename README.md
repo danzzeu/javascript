@@ -1,2 +1,2 @@
 > [!Note]
-> Here is all my Javascript projects and codes.
+> Here are all my Javascript projects and codes.
