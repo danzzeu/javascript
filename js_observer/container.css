@@ -1,0 +1,33 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+#title {
+    row-gap: 15px;
+    column-gap: 15px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px  auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#title i {
+    font-size: 100px;
+    text-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+#title p {
+    font-size: 35px;
+    text-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
