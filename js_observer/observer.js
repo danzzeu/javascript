@@ -1,7 +1,7 @@
 const style = document.createElement('style');
 
 style.textContent = `
-    .show { animation: fadeInRight 0.8s forwards }
+    .showObserver { animation: fadeInRight 0.8s forwards }
 
     @keyframes fadeInRight {
         from {
@@ -21,9 +21,9 @@ let observer = new IntersectionObserver(function(entries) {
     entries.forEach(entry => {
         let target = entry.target;
         if (entry.isIntersecting) {
-            target.classList.add('show');
+            target.classList.add('showObserver');
         } else {
-            target.classList.remove('show');
+            target.classList.remove('showObserver');
         }
     });
 }, { threshold: 0 });
