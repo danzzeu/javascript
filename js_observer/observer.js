@@ -1,6 +1,8 @@
 const style = document.createElement('style');
 
 style.textContent = `
+    html { scroll-behavior: smooth; }
+
     .showObserver { animation: fadeInRight 0.8s forwards }
 
     @keyframes fadeInRight {
